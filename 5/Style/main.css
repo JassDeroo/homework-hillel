@@ -1,0 +1,57 @@
+.first,
+.second,
+.third {
+  background-color: gray;
+}
+
+.first-block-1,
+.first-block-2,
+.second-block-1,
+.second-block-2,
+.second-block-3,
+.second-block-4,
+.second-block-5,
+.third-block-1,
+.third-block-2,
+.third-block-3,
+.third-block-4 {
+  width: 50px;
+  background-color: coral;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.first-block-1 {
+    float: left;
+}
+
+.first-block-2 {
+    float: right;
+}
+
+.second-block-1 {
+    float: left;
+}
+
+.block_in-second {
+    float: right;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.block_first {
+    float: left;
+}
+
+.block_second {
+    float: right;
+}
