@@ -397,6 +397,7 @@
     font-weight: 700;
     line-height: 50px;
     border-bottom: #222222 solid 2px;
+    max-width: 215px;
     margin-bottom: 40px;
 }
 
