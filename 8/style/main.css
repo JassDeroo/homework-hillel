@@ -18,18 +18,9 @@
 .header_nav-block {
     display: flex;
     justify-content: space-between;
-    padding: 40px 0 105px;
+    padding-top: 40px;
+    margin-bottom: 105px;
     align-items: center;
-}
-
-.title {
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 30px;
-    color: #222222;
-    border-bottom: #222222 solid 1px;
 }
 
 .header_list {
@@ -146,19 +137,18 @@
     margin-bottom: 60px;
 }
 
-
-.another_product {
+.another_product-text {
     display: inline-block;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;
     color: #222222;
-    border-bottom: #222222 solid 2px;
+    border-bottom: #222222 solid 3px;
 }
 
 .vector {
-    padding: 8px;
+    padding: 7px;
 }
 
 .cosmetic_product-block {
@@ -303,10 +293,7 @@
     justify-content: space-between;
     gap: 50px;
     padding-bottom: 130px;
-}
-
-.comments {
-    padding-top: 30px;
+    align-items: center;
 }
 
 .comments_title {
@@ -316,7 +303,6 @@
     line-height: 40px;
     margin-bottom: 10px;
 }
-
 
 .comment_text {
     font-family: 'Red Hat Display', sans-serif;
@@ -387,17 +373,9 @@
     display: flex;
     justify-content: space-around;
     padding: 55px 0 55px;
-    align-items: first baseline;
 }
 
-.footer_title {
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 50px;
-    border-bottom: #222222 solid 2px;
-    max-width: 215px;
+.logo_footer {
     margin-bottom: 40px;
 }
 
@@ -414,7 +392,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    margin-bottom: 40px;
+    margin: 10px 0 50px;
 }
 
 .footer_item {
@@ -439,7 +417,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    margin-bottom: 40px;
+    margin: 10px 0 50px;
 }
 
 .mail {
@@ -464,3 +442,4 @@
     display: flex;
     gap: 20px;
 }
+
