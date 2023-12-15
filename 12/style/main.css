@@ -1,0 +1,235 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.grid_container {
+    height: 900px;
+    background-image: url(../img/devushka_demon_roga_1078594_1440x900.jpg);
+}
+
+.grid_block {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 20px 0;
+}
+
+.grid-element_1 {
+    background-color: white;
+    animation-delay: 0.1s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_2 {
+    background-color: white;
+    animation-delay: 0.2s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_3 {
+    background-color: white;
+    animation-delay: 0.3s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_4 {
+    background-color: white;
+    animation-delay: 0.4s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_5 {
+    background-color: white;
+    animation-delay: 0.5s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_6 {
+    background-color: white;
+    animation-delay: 0.6s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_7 {
+    background-color: white;
+    animation-delay: 0.7s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_8 {
+    background-color: white;
+    animation-delay: 0.8s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_9 {
+    background-color: white;
+    animation-delay: 0.9s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_10 {
+    background-color: white;
+    animation-delay: 1s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_11 {
+    background-color: white;
+    animation-delay: 1.1s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_12 {
+    background-color: white;
+    animation-delay: 1.2s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_13 {
+    background-color: white;
+    animation-delay: 1.3s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_14 {
+    background-color: white;
+    animation-delay: 1.4s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_15 {
+    background-color: white;
+    animation-delay: 1.5s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_16 {
+    background-color: white;
+    animation-delay: 1.6s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_17 {
+    background-color: white;
+    animation-delay: 1.7s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_18 {
+    background-color: white;
+    animation-delay: 1.8s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_19 {
+    background-color: white;
+    animation-delay: 1.9s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_20 {
+    background-color: white;
+    animation-delay: 2s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_21 {
+    background-color: white;
+    animation-delay: 2.1s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_22 {
+    background-color: white;
+    animation-delay: 2.2s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_23 {
+    background-color: white;
+    animation-delay: 2.3s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_24 {
+    background-color: white;
+    animation-delay: 2.4s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+.grid-element_25 {
+    background-color: white;
+    animation-delay: 2.5s;
+    animation-name: ani-name;
+    animation-duration: 7s;
+    /* animation-iteration-count: infinite; */
+}
+
+
+
+@keyframes ani-name {
+    0% {    
+        opacity: 1;    
+    }
+
+
+    50% {
+            opacity: 0;    
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
